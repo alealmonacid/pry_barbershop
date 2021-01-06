@@ -1,0 +1,24 @@
+// styles.scss # Manifest File
+@import 'vendors/bootstrap-4.5.3/bootstrap.scss';
+// Abstracts 
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// Vendors
+@import 'vendors/fontawesome-all.css';
+
+// Base
+@import 'base/reset';
+@import 'base/typography';
+
+// Layout
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sections';
+@import 'layout/mediaqueries';
+
+// Componentes
+@import 'components/buttons';
+
+
